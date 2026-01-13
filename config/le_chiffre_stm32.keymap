@@ -56,6 +56,11 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GT>;
         };
+        homedir: homedir {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TILDE &kp FSLH>;
+        };
     };
 
     combos {
@@ -129,6 +134,11 @@
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&kp LG(FSLH)>;
+        };
+        combo_homedir {
+            timeout-ms = <50>;
+            key-positions = <25 26>;
+            bindings = <&homedir>;
         };
     };
 
