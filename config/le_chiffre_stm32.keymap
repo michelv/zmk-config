@@ -15,6 +15,21 @@
 #define NUM_L 4
 #define SYM_L 5
 
+/ {
+    chosen {
+        zmk,matrix_transform = &transform_with_encoder;
+    };
+};
+
+&encoder {
+    status = "okay";
+};
+
+&sensors {
+    status = "okay";
+    triggers-per-rotation = <9>;
+};
+
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
@@ -125,8 +140,9 @@
                 &kp QUOT       &kp COMMA  &kp DOT     &kp P          &kp Y         &kp F            &kp G          &kp C       &kp R      &kp L
                 &hm LCTRL A    &hm LALT O &hm LGUI E  &hm LSHFT U    &kp I         &kp D            &hm RSHFT H    &hm RGUI T  &hm LALT N &hm RCTRL S
                 &lt POI_L SEMI &kp Q      &kp J       &kp K          &kp X         &kp B            &kp M          &kp W       &kp V      &lt FUN_L Z
-                                                   &lt FUN_L TAB  &lt NAV_L BKSP      &lt NUM_L SPACE   &lt SYM_L ENTER
+                                                   &lt FUN_L TAB  &lt NAV_L BKSP      &lt NUM_L SPACE   &lt SYM_L ENTER   &kp ESC
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         fun_layer {
@@ -134,8 +150,9 @@
                 &kp F1     &kp F2     &kp F3      &kp F4          &kp F5       &kp F6           &kp F7             &kp F8          &kp F9     &kp F10
                 &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT       &trans       &kp C_VOL_UP     &kp LS(LEFT)       &kp LS(UP)      &kp LS(DOWN) &kp LS(RIGHT)
                 &trans     &trans     &trans      &trans          &trans       &kp C_VOL_DN     &caps_word         &kp LS(LG(N4))  &kp F11    &kp F12
-                                                  &trans          &trans       &trans           &trans
+                                                  &trans          &trans       &trans           &trans            &trans
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
@@ -143,8 +160,9 @@
                 &trans     &trans     &trans      &trans          &trans       &trans           &msc SCRL_LEFT &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_RIGHT
                 &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT       &trans       &kp CAPS         &kp LARW       &kp UARW    &kp DARW   &kp RARW
                 &trans     &trans     &trans      &trans          &trans       &kp INS          &kp HOME       &kp PG_UP   &kp PG_DN  &kp END
-                                                  &trans          &trans       &kp SPACE        &kp ENTER
+                                                  &trans          &trans       &kp SPACE        &kp ENTER     &kp DEL
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         pointer_layer {
@@ -152,8 +170,9 @@
                 &bootloader &sys_reset &trans      &trans          &trans       &trans           &trans         &trans      &trans     &trans
                 &kp LCTRL   &kp LALT   &kp LGUI    &kp LSHFT       &trans       &trans           &kp RSHFT      &kp RGUI    &kp LALT   &kp RCTRL
                 &trans      &trans     &mkp MB5    &mkp MB4        &mkp MB3     &mkp MB3         &mkp MB4       &mkp MB5    &trans     &trans
-                                                   &mkp MB2        &mkp MB1     &mkp MB1         &mkp MB2
+                                                   &mkp MB2        &mkp MB1     &mkp MB1         &mkp MB2       &trans
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
@@ -161,8 +180,9 @@
                 &kp N1     &kp N2     &kp N3      &kp N4          &kp N5       &kp N6           &kp N7         &kp N8      &kp N9     &kp N0
                 &kp LBKT   &trans     &trans      &trans          &kp BSLH     &trans           &kp RSHFT      &kp RCTRL   &kp LALT   &kp RGUI
                 &kp RBKT   &trans     &trans      &trans          &kp FSLH     &trans           &trans         &trans      &trans     &trans
-                                                  &kp MINUS       &kp EQUAL    &kp DOT          &trans
+                                                  &kp MINUS       &kp EQUAL    &kp DOT          &trans         &trans
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         sym_layer {
@@ -170,8 +190,9 @@
                 &kp EXCL   &kp AT     &kp HASH    &kp DLLR        &kp PRCNT    &kp CARET        &kp AMPS       &kp ASTRK   &kp LPAR   &kp RPAR
                 &kp LBRC   &trans     &trans      &trans          &kp PIPE     &trans           &kp RSHFT      &kp RCTRL   &kp LALT   &kp RGUI
                 &kp RBRC   &trans     &trans      &trans          &kp QMARK    &trans           &trans         &trans      &trans     &trans
-                                                  &kp UNDER       &kp PLUS     &kp TILDE        &trans
+                                                  &kp UNDER       &kp PLUS     &kp TILDE        &trans         &trans
             >;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
