@@ -8,12 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
-
-#define FUN_L 1
-#define NAV_L 2
-#define POI_L 3
-#define NUM_L 4
-#define SYM_L 5
+#include "keymap-3x5.h"
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -136,10 +131,10 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp QUOT       &kp COMMA  &kp DOT     &kp P          &kp Y         &kp F            &kp G          &kp C       &kp R      &kp L
-                &hm LCTRL A    &hm LALT O &hm LGUI E  &hm LSHFT U    &kp I         &kp D            &hm RSHFT H    &hm RGUI T  &hm LALT N &hm RCTRL S
-                &lt POI_L SEMI &kp Q      &kp J       &kp K          &kp X         &kp B            &kp M          &kp W       &kp V      &lt FUN_L Z
-                               &lt FUN_L TAB          &lt NAV_L BKSP       &kp ESC                  &lt NUM_L SPACE            &lt SYM_L ENTER
+                _____________TOP_ALPHAS_ROW_L______________ _____________TOP_ALPHAS_ROW_R______________
+                _____________MID_ALPHAS_ROW_L______________ _____________MID_ALPHAS_ROW_R______________
+                _____________BOT_ALPHAS_ROW_L______________ _____________BOT_ALPHAS_ROW_R______________
+                ___CHIFFRE_ALPHAS_THUMBS_L____ &kp ESC ___CHIFFRE_ALPHAS_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
