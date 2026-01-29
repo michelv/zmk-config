@@ -134,57 +134,57 @@
                 _____________TOP_ALPHAS_ROW_L______________ _____________TOP_ALPHAS_ROW_R______________
                 _____________MID_ALPHAS_ROW_L______________ _____________MID_ALPHAS_ROW_R______________
                 _____________BOT_ALPHAS_ROW_L______________ _____________BOT_ALPHAS_ROW_R______________
-                ___CHIFFRE_ALPHAS_THUMBS_L____ &kp ESC ___CHIFFRE_ALPHAS_THUMBS_R____
+                ___CHIFFRE_ALPHAS_THUMBS_L____ &kp ESC      ___CHIFFRE_ALPHAS_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         fun_layer {
             bindings = <
-                &kp F1     &kp F2     &kp F3      &kp F4          &kp F5       &kp F6           &kp F7             &kp F8          &kp F9     &kp F10
-                &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT       &trans       &kp C_VOL_UP     &kp LS(LEFT)       &kp LS(UP)      &kp LS(DOWN) &kp LS(RIGHT)
-                &trans     &trans     &trans      &trans          &trans       &kp C_VOL_DN     &caps_word         &kp LS(LG(N4))  &kp F11    &kp F12
-                                                  &trans          &trans       &trans           &trans            &trans
+                _____________TOP_FUNCTION_ROW_L____________ _____________TOP_FUNCTION_ROW_R____________
+                _____________MID_FUNCTION_ROW_L____________ _____________MID_FUNCTION_ROW_R____________
+                _____________BOT_FUNCTION_ROW_L____________ _____________BOT_FUNCTION_ROW_R____________
+                ___CHIFFRE_FUN_THUMBS_L____ &trans          ___CHIFFRE_FUN_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
             bindings = <
-                &trans     &trans     &trans      &trans          &trans       &trans           &msc SCRL_LEFT &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_RIGHT
-                &kp LGUI   &kp LALT   &kp LCTRL   &kp LSHFT       &trans       &kp CAPS         &kp LARW       &kp UARW    &kp DARW   &kp RARW
-                &trans     &trans     &trans      &trans          &trans       &kp INS          &kp HOME       &kp PG_UP   &kp PG_DN  &kp END
-                           &trans                 &trans                &kp DEL                 &kp SPACE                  &kp ENTER
+                ___________TOP_NAVIGATION_ROW_L____________ ___________TOP_NAVIGATION_ROW_R____________
+                ___________MID_NAVIGATION_ROW_L____________ ___________MID_NAVIGATION_ROW_R____________
+                ___________BOT_NAVIGATION_ROW_L____________ ___________BOT_NAVIGATION_ROW_R____________
+                ___CHIFFRE_NAV_THUMBS_L____ &trans          ___CHIFFRE_NAV_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         pointer_layer {
             bindings = <
-                &bootloader &sys_reset &trans      &trans          &trans       &bt BT_CLR       &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-                &kp LCTRL   &kp LALT   &kp LGUI    &kp LSHFT       &trans       &trans           &kp RSHFT      &kp RGUI    &kp LALT   &kp RCTRL
-                &trans      &trans     &mkp MB5    &mkp MB4        &mkp MB3     &mkp MB3         &mkp MB4       &mkp MB5    &trans     &trans
-                            &mkp MB2               &mkp MB1              &trans                  &mkp MB1                   &mkp MB2
+                _____________TOP_POINTER_ROW_L_____________ _____________TOP_POINTER_ROW_R_____________
+                _____________MID_POINTER_ROW_L_____________ _____________MID_POINTER_ROW_R_____________
+                _____________BOT_POINTER_ROW_L_____________ _____________BOT_POINTER_ROW_R_____________
+                ___CHIFFRE_POI_THUMBS_L____ &trans          ___CHIFFRE_POI_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
             bindings = <
-                &kp N1     &kp N2     &kp N3      &kp N4          &kp N5       &kp N6           &kp N7         &kp N8      &kp N9     &kp N0
-                &kp LBKT   &trans     &trans      &trans          &kp BSLH     &trans           &kp RSHFT      &kp RCTRL   &kp LALT   &kp RGUI
-                &kp RBKT   &trans     &trans      &trans          &kp FSLH     &trans           &trans         &trans      &trans     &trans
-                           &kp MINUS              &kp EQUAL               &trans                &trans                     &kp DOT
+                _____________TOP_NUMERAL_ROW_L_____________ _____________TOP_NUMERAL_ROW_R_____________
+                _____________MID_NUMERAL_ROW_L_____________ _____________MID_NUMERAL_ROW_R_____________
+                _____________BOT_NUMERAL_ROW_L_____________ _____________BOT_NUMERAL_ROW_R_____________
+                ___CHIFFRE_NUM_THUMBS_L____ &trans          ___CHIFFRE_NUM_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         sym_layer {
             bindings = <
-                &kp EXCL   &kp AT     &kp HASH    &kp DLLR        &kp PRCNT    &kp CARET        &kp AMPS       &kp ASTRK   &kp LPAR   &kp RPAR
-                &kp LBRC   &trans     &trans      &trans          &kp PIPE     &trans           &kp RSHFT      &kp RCTRL   &kp LALT   &kp RGUI
-                &kp RBRC   &trans     &trans      &trans          &kp QMARK    &trans           &trans         &trans      &trans     &trans
-                           &kp UNDER              &kp PLUS                 &trans               &kp TILDE                  &trans
+                _____________TOP_SYMBOLS_ROW_L_____________ _____________TOP_SYMBOLS_ROW_R_____________
+                _____________MID_SYMBOLS_ROW_L_____________ _____________MID_SYMBOLS_ROW_R_____________
+                _____________BOT_SYMBOLS_ROW_L_____________ _____________BOT_SYMBOLS_ROW_R_____________
+                ___CHIFFRE_SYM_THUMBS_L____ &trans          ___CHIFFRE_SYM_THUMBS_R____
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };

@@ -9,6 +9,7 @@
 #define ENT_SYM  &lt SYM_L ENTER
 #define BKSP_NAV &lt NAV_L BKSP
 #define SEMI_POI &lt POI_L SEMI
+#define Z_POI    &lt POI_L Z
 
 /** Convenience row shorthands. */
 #define _______________DEAD_HALF_ROW_______________ &trans    &trans    &trans    &trans    &trans
@@ -18,12 +19,12 @@
 #define ______________HOME_ROW_CAGS_R______________ &trans    &kp LSHFT &kp LGUI  &kp LALT  &kp LCTRL
 
 /** Base layer */
-#define _____________TOP_ALPHAS_ROW_L______________ &kp QUOT &kp COMMA &kp DOT &kp P &kp Y
-#define _____________TOP_ALPHAS_ROW_R______________ &kp F    &kp G     &kp C   &kp R &kp L
-#define _____________MID_ALPHAS_ROW_L______________ &kp A    &kp O     &kp E   &kp U &kp I
-#define _____________MID_ALPHAS_ROW_R______________ &kp D    &kp H     &kp T   &kp N &kp S
-#define _____________BOT_ALPHAS_ROW_L______________ SEMI_POI &kp Q     &kp J   &kp K &kp X
-#define _____________BOT_ALPHAS_ROW_R______________ &kp B    &kp M     &kp W   &kp V &kp Z
+#define _____________TOP_ALPHAS_ROW_L______________ &kp QUOT    &kp COMMA   &kp DOT    &kp P       &kp Y
+#define _____________TOP_ALPHAS_ROW_R______________ &kp F       &kp G       &kp C      &kp R       &kp L
+#define _____________MID_ALPHAS_ROW_L______________ &hm LCTRL A &hm LALT O  &hm LGUI E &hm LSHFT U &kp I
+#define _____________MID_ALPHAS_ROW_R______________ &kp D       &hm RSHFT H &hm RGUI T &hm LALT N  &hm RCTRL S
+#define _____________BOT_ALPHAS_ROW_L______________ SEMI_POI    &kp Q       &kp J      &kp K       &kp X
+#define _____________BOT_ALPHAS_ROW_R______________ &kp B       &kp M       &kp W      &kp V       Z_POI
 
 #define ___CHIFFRE_ALPHAS_THUMBS_L____ TAB_FUN BKSP_NAV
 #define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM ENT_SYM
@@ -58,7 +59,7 @@
 #define _____________BOT_POINTER_ROW_L_____________ &trans      &trans       &mkp MB5     &mkp MB4     &mkp MB3
 #define _____________BOT_POINTER_ROW_R_____________ &mkp MB3    &mkp MB4     &mkp MB5     &trans       &trans
 
-#define ___CHIFFRE_POI_THUMBS_L____ &mkp MB2 &mkp MB1 
+#define ___CHIFFRE_POI_THUMBS_L____ &mkp MB2 &mkp MB1
 #define ___CHIFFRE_POI_THUMBS_R____ &mkp MB1 &mkp MB2
 
 /** Numeral layer */
