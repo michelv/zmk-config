@@ -6,7 +6,7 @@
 
 #define SPC_NUM  &lt NUM_L SPACE
 #define TAB_FUN  &lt FUN_L TAB
-#define ENT_SYM  &lt SYM_L ENTER
+#define GRAV_SYM  &lt SYM_L GRAVE
 #define BKSP_NAV &lt NAV_L BKSP
 #define SEMI_POI &lt POI_L SEMI
 #define Z_POI    &lt POI_L Z
@@ -27,7 +27,7 @@
 #define _____________BOT_ALPHAS_ROW_R______________ &kp B       &kp M       &kp W      &kp V       Z_POI
 
 #define ___CHIFFRE_ALPHAS_THUMBS_L____ TAB_FUN BKSP_NAV
-#define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM ENT_SYM
+#define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM GRAV_SYM
 
 /** Function layer */
 #define _____________TOP_FUNCTION_ROW_L____________ &kp F1       &kp F2       &kp F3         &kp F4       &kp F5
