@@ -28,6 +28,8 @@
 
 #define ___CHIFFRE_ALPHAS_THUMBS_L____ TAB_FUN BKSP_NAV
 #define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM GRAV_SYM
+#define ___ENC_ALPHAS_PRESS___     &kp ESC
+#define ___ENC_ALPHAS_INC_DEC___   PG_UP PG_DN
 
 /** Function layer */
 #define _____________TOP_FUNCTION_ROW_L____________ &kp F1       &kp F2       &kp F3         &kp F4       &kp F5
@@ -39,6 +41,8 @@
 
 #define ___CHIFFRE_FUN_THUMBS_L____ &trans &trans
 #define ___CHIFFRE_FUN_THUMBS_R____ &trans &trans
+#define ___ENC_FUN_PRESS___     &kp ESC
+#define ___ENC_FUN_INC_DEC___   PG_UP PG_DN
 
 /** Navigation layer */
 #define ___________TOP_NAVIGATION_ROW_L____________ _______________DEAD_HALF_ROW_______________
@@ -50,6 +54,8 @@
 
 #define ___CHIFFRE_NAV_THUMBS_L____ &trans    &trans
 #define ___CHIFFRE_NAV_THUMBS_R____ &kp ENTER &kp SPACE
+#define ___ENC_NAV_PRESS___     &kp ESC
+#define ___ENC_NAV_INC_DEC___   PG_UP PG_DN
 
 /** Pointer layer */
 #define _____________TOP_POINTER_ROW_L_____________ &bootloader &sys_reset   &trans       &trans       &trans
@@ -61,6 +67,8 @@
 
 #define ___CHIFFRE_POI_THUMBS_L____ &mkp MB2 &mkp MB1
 #define ___CHIFFRE_POI_THUMBS_R____ &mkp MB1 &mkp MB2
+#define ___ENC_POI_PRESS___     &kp ESC
+#define ___ENC_POI_INC_DEC___   PG_UP PG_DN
 
 /** Numeral layer */
 #define _____________TOP_NUMERAL_ROW_L_____________ &kp N1     &kp N2     &kp N3      &kp N4          &kp N5
@@ -72,6 +80,8 @@
 
 #define ___CHIFFRE_NUM_THUMBS_L____ &kp MINUS &kp EQUAL
 #define ___CHIFFRE_NUM_THUMBS_R____ &trans    &kp DOT
+#define ___ENC_NUM_PRESS___     &kp ESC
+#define ___ENC_NUM_INC_DEC___   PG_UP PG_DN
 
 /** Symbols layer */
 #define _____________TOP_SYMBOLS_ROW_L_____________ &kp EXCL   &kp AT     &kp HASH    &kp DLLR        &kp PRCNT
@@ -83,3 +93,5 @@
 
 #define ___CHIFFRE_SYM_THUMBS_L____ &kp UNDER &kp PLUS
 #define ___CHIFFRE_SYM_THUMBS_R____ &kp TILDE &trans
+#define ___ENC_SYM_PRESS___     &kp ESC
+#define ___ENC_SYM_INC_DEC___   PG_UP PG_DN

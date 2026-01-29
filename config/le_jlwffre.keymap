@@ -139,9 +139,9 @@
                 _____________TOP_ALPHAS_ROW_L______________ _____________TOP_ALPHAS_ROW_R______________
                 _____________MID_ALPHAS_ROW_L______________ _____________MID_ALPHAS_ROW_R______________
                 _____________BOT_ALPHAS_ROW_L______________ _____________BOT_ALPHAS_ROW_R______________
-                ___CHIFFRE_ALPHAS_THUMBS_L____ &kp ESC      ___CHIFFRE_ALPHAS_THUMBS_R____
+                ___CHIFFRE_ALPHAS_THUMBS_L____  ___ENC_ALPHAS_PRESS___   ___CHIFFRE_ALPHAS_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_ALPHAS_INC_DEC___>;
         };
 
         fun_layer {
