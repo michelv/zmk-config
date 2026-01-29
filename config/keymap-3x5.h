@@ -6,7 +6,7 @@
 
 #define SPC_NUM  &lt NUM_L SPACE
 #define TAB_FUN  &lt FUN_L TAB
-#define ENT_SYM  &lt SYM_L ENTER
+#define GRAV_SYM  &lt SYM_L GRAVE
 #define BKSP_NAV &lt NAV_L BKSP
 #define SEMI_POI &lt POI_L SEMI
 #define Z_POI    &lt POI_L Z
@@ -27,7 +27,7 @@
 #define _____________BOT_ALPHAS_ROW_R______________ &kp B       &kp M       &kp W      &kp V       Z_POI
 
 #define ___CHIFFRE_ALPHAS_THUMBS_L____ TAB_FUN BKSP_NAV
-#define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM ENT_SYM
+#define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM GRAV_SYM
 
 /** Function layer */
 #define _____________TOP_FUNCTION_ROW_L____________ &kp F1       &kp F2       &kp F3         &kp F4       &kp F5
@@ -49,7 +49,7 @@
 #define ___________BOT_NAVIGATION_ROW_R____________ &kp INS  &kp HOME       &kp PG_UP    &kp PG_DN      &kp END
 
 #define ___CHIFFRE_NAV_THUMBS_L____ &trans    &trans
-#define ___CHIFFRE_NAV_THUMBS_R____ &kp SPACE &kp ENTER
+#define ___CHIFFRE_NAV_THUMBS_R____ &kp ENTER &kp SPACE
 
 /** Pointer layer */
 #define _____________TOP_POINTER_ROW_L_____________ &bootloader &sys_reset   &trans       &trans       &trans
@@ -81,5 +81,5 @@
 #define _____________BOT_SYMBOLS_ROW_L_____________ &kp RBRC   &trans     &trans      &trans          &kp QMARK
 #define _____________BOT_SYMBOLS_ROW_R_____________ _______________DEAD_HALF_ROW_______________
 
-#define ___CHIFFRE_SYM_THUMBS_L____ &kp MINUS &kp EQUAL
+#define ___CHIFFRE_SYM_THUMBS_L____ &kp UNDER &kp PLUS
 #define ___CHIFFRE_SYM_THUMBS_R____ &kp TILDE &trans
