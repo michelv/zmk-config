@@ -18,6 +18,7 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
+            display-name = LABEL_ALPHAS;
             bindings = <
                 _____________TOP_ALPHAS_ROW_L______________ _____________TOP_ALPHAS_ROW_R______________
                 _____________MID_ALPHAS_ROW_L______________ _____________MID_ALPHAS_ROW_R______________
@@ -28,6 +29,7 @@
         };
 
         fun_layer {
+            display-name = LABEL_FUN;
             bindings = <
                 _____________TOP_FUNCTION_ROW_L____________ _____________TOP_FUNCTION_ROW_R____________
                 _____________MID_FUNCTION_ROW_L____________ _____________MID_FUNCTION_ROW_R____________
@@ -38,6 +40,7 @@
         };
 
         nav_layer {
+            display-name = LABEL_NAV;
             bindings = <
                 ___________TOP_NAVIGATION_ROW_L____________ ___________TOP_NAVIGATION_ROW_R____________
                 ___________MID_NAVIGATION_ROW_L____________ ___________MID_NAVIGATION_ROW_R____________
@@ -48,6 +51,7 @@
         };
 
         pointer_layer {
+            display-name = LABEL_POI;
             bindings = <
                 _____________TOP_POINTER_ROW_L_____________ _____________TOP_POINTER_ROW_R_____________
                 _____________MID_POINTER_ROW_L_____________ _____________MID_POINTER_ROW_R_____________
@@ -58,6 +62,7 @@
         };
 
         num_layer {
+            display-name = LABEL_NUM;
             bindings = <
                 _____________TOP_NUMERAL_ROW_L_____________ _____________TOP_NUMERAL_ROW_R_____________
                 _____________MID_NUMERAL_ROW_L_____________ _____________MID_NUMERAL_ROW_R_____________
@@ -68,6 +73,7 @@
         };
 
         sym_layer {
+            display-name = LABEL_SYM;
             bindings = <
                 _____________TOP_SYMBOLS_ROW_L_____________ _____________TOP_SYMBOLS_ROW_R_____________
                 _____________MID_SYMBOLS_ROW_L_____________ _____________MID_SYMBOLS_ROW_R_____________
