@@ -81,5 +81,5 @@
 #define _____________BOT_SYMBOLS_ROW_L_____________ &kp RBRC   &trans     &trans      &trans          &kp QMARK
 #define _____________BOT_SYMBOLS_ROW_R_____________ _______________DEAD_HALF_ROW_______________
 
-#define ___CHIFFRE_SYM_THUMBS_L____ &kp MINUS &kp EQUAL
+#define ___CHIFFRE_SYM_THUMBS_L____ &kp UNDER &kp PLUS
 #define ___CHIFFRE_SYM_THUMBS_R____ &kp TILDE &trans
