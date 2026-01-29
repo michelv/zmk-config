@@ -49,7 +49,7 @@
 #define ___________BOT_NAVIGATION_ROW_R____________ &kp INS  &kp HOME       &kp PG_UP    &kp PG_DN      &kp END
 
 #define ___CHIFFRE_NAV_THUMBS_L____ &trans    &trans
-#define ___CHIFFRE_NAV_THUMBS_R____ &kp SPACE &kp ENTER
+#define ___CHIFFRE_NAV_THUMBS_R____ &kp ENTER &kp SPACE
 
 /** Pointer layer */
 #define _____________TOP_POINTER_ROW_L_____________ &bootloader &sys_reset   &trans       &trans       &trans
