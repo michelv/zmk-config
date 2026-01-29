@@ -1,0 +1,253 @@
+layout: {zmk_keyboard: le_jlwffre}
+layers:
+  default:
+  - QUOT
+  - ','
+  - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: A, h: LCTRL}
+  - {t: O, h: LALT}
+  - {t: E, h: LGUI}
+  - {t: U, h: LSHFT}
+  - I
+  - D
+  - {t: H, h: RSHFT}
+  - {t: T, h: RGUI}
+  - {t: N, h: LALT}
+  - {t: S, h: RCTRL}
+  - {t: ;, h: pointer}
+  - Q
+  - J
+  - K
+  - X
+  - B
+  - M
+  - W
+  - V
+  - {t: Z, h: pointer}
+  - {t: TAB, h: fun}
+  - {t: BKSP, h: nav}
+  - ESC
+  - {t: SPACE, h: num}
+  - {t: '`', h: sym}
+  fun:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - VOL UP
+  - Sft+LEFT
+  - Sft+UP
+  - Sft+DOWN
+  - Sft+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOL DN
+  - '&caps_word'
+  - Sft+Gui+4
+  - F11
+  - F12
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - CAPS
+  - LARW
+  - UARW
+  - DARW
+  - RARW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - HOME
+  - PG UP
+  - PG DN
+  - END
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ESC
+  - ENTER
+  - SPACE
+  pointer:
+  - '&bootloader'
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&mkp MB5'
+  - '&mkp MB4'
+  - '&mkp MB3'
+  - '&mkp MB3'
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - ESC
+  - '&mkp MB1'
+  - '&mkp MB2'
+  num:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '['
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - \
+  - {t: ▽, type: trans}
+  - LSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
+  - ESC
+  - {type: held}
+  - .
+  sym:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '{'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '|'
+  - {t: ▽, type: trans}
+  - LSHFT
+  - LGUI
+  - LALT
+  - LCTRL
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - +
+  - ESC
+  - '~'
+  - {type: held}
+combos:
+- p: [10, 0]
+  k: '!'
+- p: [11, 1]
+  k: '@'
+- p: [12, 2]
+  k: '#'
+- p: [13, 3]
+  k: $
+- p: [14, 4]
+  k: '%'
+- p: [15, 5]
+  k: ^
+- p: [16, 6]
+  k: '&'
+- p: [17, 7]
+  k: '*'
+- p: [18, 8]
+  k: (
+- p: [19, 9]
+  k: )
+- p: [13, 16]
+  k: '&caps_word'
+- p: [1, 2]
+  k: '&double_arrow'
+- p: [2, 3]
+  k: '&arrow'
+- p: [23, 24]
+  k: Gui+/
+- p: [25, 26]
+  k: '&homedir'
+- p: [0, 1]
+  k: ESC
+- p: [16, 17, 18]
+  k: ENTER
