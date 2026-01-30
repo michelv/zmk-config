@@ -8,130 +8,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
-#include "keymap-3x5.h"
+#include "shared/keymap-3x5.h"
+#include "shared/behaviors.dtsi"
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
 / {
-    behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods";
-            #binding-cells = <2>;
-            tapping_term_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-    };
-
-    macros {
-        double_arrow: double_arrow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp GT>;
-        };
-        arrow: arrow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS &kp GT>;
-        };
-        homedir: homedir {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp TILDE &kp FSLH>;
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-        combo_excl {
-            timeout-ms = <50>;
-            key-positions = <10 0>;
-            bindings = <&kp EXCL>;
-        };
-        combo_at {
-            timeout-ms = <50>;
-            key-positions = <11 1>;
-            bindings = <&kp AT>;
-        };
-        combo_hash {
-            timeout-ms = <50>;
-            key-positions = <12 2>;
-            bindings = <&kp HASH>;
-        };
-        combo_dllr {
-            timeout-ms = <50>;
-            key-positions = <13 3>;
-            bindings = <&kp DLLR>;
-        };
-        combo_prcnt {
-            timeout-ms = <50>;
-            key-positions = <14 4>;
-            bindings = <&kp PRCNT>;
-        };
-        combo_caret {
-            timeout-ms = <50>;
-            key-positions = <15 5>;
-            bindings = <&kp CARET>;
-        };
-        combo_amps {
-            timeout-ms = <50>;
-            key-positions = <16 6>;
-            bindings = <&kp AMPS>;
-        };
-        combo_astrk {
-            timeout-ms = <50>;
-            key-positions = <17 7>;
-            bindings = <&kp ASTRK>;
-        };
-        combo_lpar {
-            timeout-ms = <50>;
-            key-positions = <18 8>;
-            bindings = <&kp LPAR>;
-        };
-        combo_rpar {
-            timeout-ms = <50>;
-            key-positions = <19 9>;
-            bindings = <&kp RPAR>;
-        };
-        combo_capsword {
-            timeout-ms = <50>;
-            key-positions = <13 16>;
-            bindings = <&caps_word>;
-        };
-        combo_double_arrow {
-            timeout-ms = <50>;
-            key-positions = <1 2>;
-            bindings = <&double_arrow>;
-        };
-        combo_arrow {
-            timeout-ms = <50>;
-            key-positions = <2 3>;
-            bindings = <&arrow>;
-        };
-        combo_comment {
-            timeout-ms = <50>;
-            key-positions = <23 24>;
-            bindings = <&kp LG(FSLH)>;
-        };
-        combo_homedir {
-            timeout-ms = <50>;
-            key-positions = <25 26>;
-            bindings = <&homedir>;
-        };
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-        combo_enter_three_fingers {
-            timeout-ms = <50>;
-            key-positions = <16 17 18>;
-            bindings = <&kp ENTER>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
         default_layer {
@@ -149,9 +32,9 @@
                 _____________TOP_FUNCTION_ROW_L____________ _____________TOP_FUNCTION_ROW_R____________
                 _____________MID_FUNCTION_ROW_L____________ _____________MID_FUNCTION_ROW_R____________
                 _____________BOT_FUNCTION_ROW_L____________ _____________BOT_FUNCTION_ROW_R____________
-                ___CHIFFRE_FUN_THUMBS_L____ &trans          ___CHIFFRE_FUN_THUMBS_R____
+                ___CHIFFRE_FUN_THUMBS_L____       ___ENC_FUN_PRESS___       ___CHIFFRE_FUN_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_FUN_INC_DEC___>;
         };
 
         nav_layer {
@@ -159,9 +42,9 @@
                 ___________TOP_NAVIGATION_ROW_L____________ ___________TOP_NAVIGATION_ROW_R____________
                 ___________MID_NAVIGATION_ROW_L____________ ___________MID_NAVIGATION_ROW_R____________
                 ___________BOT_NAVIGATION_ROW_L____________ ___________BOT_NAVIGATION_ROW_R____________
-                ___CHIFFRE_NAV_THUMBS_L____ &trans          ___CHIFFRE_NAV_THUMBS_R____
+                ___CHIFFRE_NAV_THUMBS_L____       ___ENC_NAV_PRESS___       ___CHIFFRE_NAV_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_NAV_INC_DEC___>;
         };
 
         pointer_layer {
@@ -169,9 +52,9 @@
                 _____________TOP_POINTER_ROW_L_____________ _____________TOP_POINTER_ROW_R_____________
                 _____________MID_POINTER_ROW_L_____________ _____________MID_POINTER_ROW_R_____________
                 _____________BOT_POINTER_ROW_L_____________ _____________BOT_POINTER_ROW_R_____________
-                ___CHIFFRE_POI_THUMBS_L____ &trans          ___CHIFFRE_POI_THUMBS_R____
+                ___CHIFFRE_POI_THUMBS_L____       ___ENC_POI_PRESS___       ___CHIFFRE_POI_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_POI_INC_DEC___>;
         };
 
         num_layer {
@@ -179,9 +62,9 @@
                 _____________TOP_NUMERAL_ROW_L_____________ _____________TOP_NUMERAL_ROW_R_____________
                 _____________MID_NUMERAL_ROW_L_____________ _____________MID_NUMERAL_ROW_R_____________
                 _____________BOT_NUMERAL_ROW_L_____________ _____________BOT_NUMERAL_ROW_R_____________
-                ___CHIFFRE_NUM_THUMBS_L____ &trans          ___CHIFFRE_NUM_THUMBS_R____
+                ___CHIFFRE_NUM_THUMBS_L____       ___ENC_NUM_PRESS___       ___CHIFFRE_NUM_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_NUM_INC_DEC___>;
         };
 
         sym_layer {
@@ -189,9 +72,9 @@
                 _____________TOP_SYMBOLS_ROW_L_____________ _____________TOP_SYMBOLS_ROW_R_____________
                 _____________MID_SYMBOLS_ROW_L_____________ _____________MID_SYMBOLS_ROW_R_____________
                 _____________BOT_SYMBOLS_ROW_L_____________ _____________BOT_SYMBOLS_ROW_R_____________
-                ___CHIFFRE_SYM_THUMBS_L____ &trans          ___CHIFFRE_SYM_THUMBS_R____
+                ___CHIFFRE_SYM_THUMBS_L____       ___ENC_SYM_PRESS___       ___CHIFFRE_SYM_THUMBS_R____
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp ___ENC_SYM_INC_DEC___>;
         };
     };
 };

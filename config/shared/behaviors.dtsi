@@ -1,0 +1,119 @@
+/ {
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow mods";
+            #binding-cells = <2>;
+            tapping_term_ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+    macros {
+        double_arrow: double_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GT>;
+        };
+        arrow: arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GT>;
+        };
+        homedir: homedir {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TILDE &kp FSLH>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+        combo_excl {
+            timeout-ms = <50>;
+            key-positions = <10 0>;
+            bindings = <&kp EXCL>;
+        };
+        combo_at {
+            timeout-ms = <50>;
+            key-positions = <11 1>;
+            bindings = <&kp AT>;
+        };
+        combo_hash {
+            timeout-ms = <50>;
+            key-positions = <12 2>;
+            bindings = <&kp HASH>;
+        };
+        combo_dllr {
+            timeout-ms = <50>;
+            key-positions = <13 3>;
+            bindings = <&kp DLLR>;
+        };
+        combo_prcnt {
+            timeout-ms = <50>;
+            key-positions = <14 4>;
+            bindings = <&kp PRCNT>;
+        };
+        combo_caret {
+            timeout-ms = <50>;
+            key-positions = <15 5>;
+            bindings = <&kp CARET>;
+        };
+        combo_amps {
+            timeout-ms = <50>;
+            key-positions = <16 6>;
+            bindings = <&kp AMPS>;
+        };
+        combo_astrk {
+            timeout-ms = <50>;
+            key-positions = <17 7>;
+            bindings = <&kp ASTRK>;
+        };
+        combo_lpar {
+            timeout-ms = <50>;
+            key-positions = <18 8>;
+            bindings = <&kp LPAR>;
+        };
+        combo_rpar {
+            timeout-ms = <50>;
+            key-positions = <19 9>;
+            bindings = <&kp RPAR>;
+        };
+        combo_capsword {
+            timeout-ms = <50>;
+            key-positions = <13 16>;
+            bindings = <&caps_word>;
+        };
+        combo_double_arrow {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&double_arrow>;
+        };
+        combo_arrow {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&arrow>;
+        };
+        combo_comment {
+            timeout-ms = <50>;
+            key-positions = <23 24>;
+            bindings = <&kp LG(FSLH)>;
+        };
+        combo_homedir {
+            timeout-ms = <50>;
+            key-positions = <25 26>;
+            bindings = <&homedir>;
+        };
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        combo_enter_three_fingers {
+            timeout-ms = <50>;
+            key-positions = <16 17 18>;
+            bindings = <&kp ENTER>;
+        };
+    };
+};
