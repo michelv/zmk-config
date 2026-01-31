@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: le_jlwffre}
 layers:
-  default:
+  Alpha:
   - QUOT
   - ','
   - .
@@ -21,7 +21,7 @@ layers:
   - {t: T, h: RGUI}
   - {t: N, h: LALT}
   - {t: S, h: RCTRL}
-  - {t: ;, h: pointer}
+  - {t: ;, h: Mouse}
   - Q
   - J
   - K
@@ -30,13 +30,13 @@ layers:
   - M
   - W
   - V
-  - {t: Z, h: pointer}
-  - {t: TAB, h: fun}
-  - {t: BKSP, h: nav}
+  - {t: Z, h: Mouse}
+  - {t: TAB, h: Function}
+  - {t: BKSP, h: Navigation}
   - ESC
-  - {t: SPACE, h: num}
-  - {t: '`', h: sym}
-  fun:
+  - {t: SPACE, h: Number}
+  - {t: '`', h: Symbol}
+  Function:
   - F1
   - F2
   - F3
@@ -72,7 +72,7 @@ layers:
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav:
+  Navigation:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -108,7 +108,7 @@ layers:
   - ESC
   - ENTER
   - SPACE
-  pointer:
+  Mouse:
   - '&bootloader'
   - '&sys_reset'
   - {t: ▽, type: trans}
@@ -144,7 +144,7 @@ layers:
   - ESC
   - '&mkp MB1'
   - '&mkp MB2'
-  num:
+  Number:
   - '1'
   - '2'
   - '3'
@@ -180,7 +180,7 @@ layers:
   - ESC
   - {type: held}
   - .
-  sym:
+  Symbol:
   - '!'
   - '@'
   - '#'
