@@ -4,12 +4,12 @@
 #define NUM_L 4
 #define SYM_L 5
 
-#define LABEL_ALPHAS Alpha
-#define LABEL_NUM Number
-#define LABEL_FUN Function
-#define LABEL_SYM Symbol
-#define LABEL_NAV Navigation
-#define LABEL_POI Mouse
+#define LABEL_ALPHAS "Alpha"
+#define LABEL_NUM "Number"
+#define LABEL_FUN "Function"
+#define LABEL_SYM "Symbol"
+#define LABEL_NAV "Navigation"
+#define LABEL_POI "Mouse"
 
 #define SPC_NUM  &lt NUM_L SPACE
 #define TAB_FUN  &lt FUN_L TAB
