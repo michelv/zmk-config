@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
-  - $$mdi:alpha-w-box$$
+  - CapsWord $$mdi:alpha-w-box$$
   - Sft+Gui+4
   - F11
   - F12
@@ -248,19 +248,19 @@ combos:
   k: )
   l: [Alpha]
 - p: [13, 16]
-  k: $$mdi:alpha-w-box$$
+  k: CapsWord $$mdi:alpha-w-box$$
   l: [Alpha]
 - p: [1, 2]
-  k: '&double_arrow'
+  k: =>
   l: [Alpha]
 - p: [2, 3]
-  k: '&arrow'
+  k: ->
   l: [Alpha]
 - p: [23, 24]
   k: Gui+/
   l: [Alpha]
 - p: [25, 26]
-  k: '&homedir'
+  k: ~/
   l: [Alpha]
 - p: [0, 1]
   k: ESC
