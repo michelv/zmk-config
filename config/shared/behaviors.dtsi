@@ -31,76 +31,91 @@
     combos {
         compatible = "zmk,combos";
         combo_excl {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <10 0>;
             bindings = <&kp EXCL>;
         };
         combo_at {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <11 1>;
             bindings = <&kp AT>;
         };
         combo_hash {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <12 2>;
             bindings = <&kp HASH>;
         };
         combo_dllr {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <13 3>;
             bindings = <&kp DLLR>;
         };
         combo_prcnt {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <14 4>;
             bindings = <&kp PRCNT>;
         };
         combo_caret {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <15 5>;
             bindings = <&kp CARET>;
         };
         combo_amps {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <16 6>;
             bindings = <&kp AMPS>;
         };
         combo_astrk {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <17 7>;
             bindings = <&kp ASTRK>;
         };
         combo_lpar {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <18 8>;
             bindings = <&kp LPAR>;
         };
         combo_rpar {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <19 9>;
             bindings = <&kp RPAR>;
         };
         combo_capsword {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <13 16>;
             bindings = <&caps_word>;
         };
         combo_double_arrow {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&double_arrow>;
         };
         combo_arrow {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&arrow>;
         };
         combo_comment {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&kp LG(FSLH)>;
         };
         combo_homedir {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <25 26>;
             bindings = <&homedir>;
