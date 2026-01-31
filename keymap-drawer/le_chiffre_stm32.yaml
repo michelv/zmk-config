@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - VOL DN
-  - '&caps_word'
+  - $$mdi:alpha-w-box$$
   - Sft+Gui+4
   - F11
   - F12
@@ -248,7 +248,7 @@ combos:
   k: )
   l: [Alpha]
 - p: [13, 16]
-  k: '&caps_word'
+  k: $$mdi:alpha-w-box$$
   l: [Alpha]
 - p: [1, 2]
   k: '&double_arrow'
