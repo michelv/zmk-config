@@ -11,16 +11,16 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: LCTRL}
-  - {t: O, h: LALT}
+  - {t: A, h: ^ Ctrl}
+  - {t: O, h: ⌥ Alt}
   - {t: E, h: ⌘ Command}
-  - {t: U, h: LSHFT}
+  - {t: U, h: ⇧ Shift}
   - I
   - D
-  - {t: H, h: RSHFT}
-  - {t: T, h: RGUI}
-  - {t: N, h: LALT}
-  - {t: S, h: RCTRL}
+  - {t: H, h: ⇧ Shift}
+  - {t: T, h: ⌘ Command}
+  - {t: N, h: ⌥ Alt}
+  - {t: S, h: ^ Ctrl}
   - {t: ;, h: Mouse}
   - Q
   - J
@@ -47,16 +47,16 @@ layers:
   - F8
   - F9
   - F10
-  - LCTRL
-  - LALT
+  - ^ Ctrl
+  - ⌥ Alt
   - ⌘ Command
-  - LSHFT
+  - ⇧ Shift
   - {t: ▽, type: trans}
   - VOL UP
-  - Sft+LEFT
-  - Sft+UP
-  - Sft+DOWN
-  - Sft+RIGHT
+  - ⇧ Left
+  - ⇧ UP
+  - ⇧ DOWN
+  - ⇧ RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - CapsWord $$mdi:alpha-w-box$$
-  - Sft+Gui+4
+  - ⇧ ⌘ 4
   - F11
   - F12
   - {type: held}
@@ -83,10 +83,10 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_RIGHT'
-  - LCTRL
-  - LALT
+  - ^ Ctrl
+  - ⌥ Alt
   - ⌘ Command
-  - LSHFT
+  - ⇧ Shift
   - {t: ▽, type: trans}
   - CAPS
   - ← Left
@@ -119,16 +119,16 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - LCTRL
-  - LALT
+  - ^ Ctrl
+  - ⌥ Alt
   - ⌘ Command
-  - LSHFT
+  - ⇧ Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
+  - ⇧ Shift
   - ⌘ Command
-  - LALT
-  - LCTRL
+  - ⌥ Alt
+  - ^ Ctrl
   - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -161,10 +161,10 @@ layers:
   - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
-  - LSHFT
+  - ⇧ Shift
   - ⌘ Command
-  - LALT
-  - LCTRL
+  - ⌥ Alt
+  - ^ Ctrl
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,10 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - LSHFT
+  - ⇧ Shift
   - ⌘ Command
-  - LALT
-  - LCTRL
+  - ⌥ Alt
+  - ^ Ctrl
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,7 +257,7 @@ combos:
   k: ->
   l: [Alpha]
 - p: [23, 24]
-  k: Gui+/
+  k: ⌘ /
   l: [Alpha]
 - p: [25, 26]
   k: ~/
