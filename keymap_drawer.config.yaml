@@ -35,11 +35,88 @@ draw_config:
   glyph_tap_size: 14
   glyph_hold_size: 12
   glyph_shifted_size: 10
-  glyphs: {}
+  glyphs:  # mapping of glyph name to be used to svg definition
+    bri_up: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brightness-up" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+            <path d="M12 5l0 -2"></path>
+            <path d="M17 7l1.4 -1.4"></path>
+            <path d="M19 12l2 0"></path>
+            <path d="M17 17l1.4 1.4"></path>
+            <path d="M12 19l0 2"></path>
+            <path d="M7 17l-1.4 1.4"></path>
+            <path d="M6 12l-2 0"></path>
+            <path d="M7 7l-1.4 -1.4"></path>
+        </svg>
+    bri_down: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brightness-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+           <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+           <path d="M12 5l0 .01"></path>
+           <path d="M17 7l0 .01"></path>
+           <path d="M19 12l0 .01"></path>
+           <path d="M17 17l0 .01"></path>
+           <path d="M12 19l0 .01"></path>
+           <path d="M7 17l0 .01"></path>
+           <path d="M5 12l0 .01"></path>
+           <path d="M7 7l0 .01"></path>
+        </svg>
+    vol_up: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+           <path d="M15 8a5 5 0 0 1 0 8"></path>
+           <path d="M17.7 5a9 9 0 0 1 0 14"></path>
+           <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5"></path>
+        </svg>
+    vol_down: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+           <path d="M15 8a5 5 0 0 1 0 8"></path>
+           <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5"></path>
+        </svg>
+    vol_mute: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+           <path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5 5 0 0 1 -.535 .464"></path>
+           <path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9 9 0 0 1 -.686 .615"></path>
+           <path d="M9.069 5.054l.431 -.554a.8 .8 0 0 1 1.5 .5v2m0 4v8a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l1.294 -1.664"></path>
+           <path d="M3 3l18 18"></path>
+        </svg>
+    usb_icon: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-usb" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+            <path d="M12 17v-11.5"></path>
+            <path d="M7 10v3l5 3"></path>
+            <path d="M12 14.5l5 -2v-2.5"></path>
+            <path d="M16 10h2v-2h-2z"></path>
+            <path d="M7 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+            <path d="M10 5.5h4l-2 -2.5z"></path>
+        </svg>
+    bt_icon: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bluetooth" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M7 8l10 8l-5 4l0 -16l5 4l-10 8"></path>
+        </svg>
+    screenshot: |
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-screenshot" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+           <path d="M7 19a2 2 0 0 1 -2 -2"></path>
+           <path d="M5 13v-2"></path>
+           <path d="M5 7a2 2 0 0 1 2 -2"></path>
+           <path d="M11 5h2"></path>
+           <path d="M17 5a2 2 0 0 1 2 2"></path>
+           <path d="M19 11v2"></path>
+           <path d="M19 17v4"></path>
+           <path d="M21 19h-4"></path>
+           <path d="M13 19h-2"></path>
+        </svg>
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map:
+    "&caps_word": $$mdi:alpha-w-box$$
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
