@@ -116,7 +116,12 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    "&caps_word": $$mdi:alpha-w-box$$
+    "&caps_word": "CapsWord $$mdi:alpha-w-box$$"
+    "&arrow": "->"
+    "&double_arrow": "=>"
+    "&homedir": "~/"
+    "LCTRL": "^ CTRL"
+    "LALT": "⌥ Alt"
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
