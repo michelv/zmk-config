@@ -13,7 +13,7 @@ layers:
   - L
   - {t: A, h: LCTRL}
   - {t: O, h: LALT}
-  - {t: E, h: LGUI}
+  - {t: E, h: ⌘ Command}
   - {t: U, h: LSHFT}
   - I
   - D
@@ -49,7 +49,7 @@ layers:
   - F10
   - LCTRL
   - LALT
-  - LGUI
+  - ⌘ Command
   - LSHFT
   - {t: ▽, type: trans}
   - VOL UP
@@ -85,24 +85,24 @@ layers:
   - '&msc SCRL_RIGHT'
   - LCTRL
   - LALT
-  - LGUI
+  - ⌘ Command
   - LSHFT
   - {t: ▽, type: trans}
   - CAPS
-  - LARW
-  - UARW
-  - DARW
-  - RARW
+  - ← Left
+  - ↑ Up
+  - ↓ Down
+  - → Right
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INS
-  - HOME
-  - PG UP
-  - PG DN
-  - END
+  - ⤒ Home
+  - ⇞ PgUp
+  - ⇟ PgDn
+  - ⤓ End
   - {t: ▽, type: trans}
   - {type: held}
   - ESC
@@ -121,12 +121,12 @@ layers:
   - {t: BT, h: '3'}
   - LCTRL
   - LALT
-  - LGUI
+  - ⌘ Command
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - ⌘ Command
   - LALT
   - LCTRL
   - {type: held}
@@ -162,7 +162,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - ⌘ Command
   - LALT
   - LCTRL
   - ']'
@@ -198,7 +198,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - LSHFT
-  - LGUI
+  - ⌘ Command
   - LALT
   - LCTRL
   - '}'

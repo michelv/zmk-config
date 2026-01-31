@@ -185,7 +185,7 @@ path.combo {
 <g transform="translate(153, 87) rotate(7.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">E</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 78%">⌘ Command</tspan></text>
 </g>
 <g transform="translate(206, 108) rotate(7.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -419,7 +419,9 @@ path.combo {
 </g>
 <g transform="translate(153, 87) rotate(7.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(206, 108) rotate(7.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -593,7 +595,9 @@ path.combo {
 </g>
 <g transform="translate(153, 87) rotate(7.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(206, 108) rotate(7.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -609,19 +613,27 @@ path.combo {
 </g>
 <g transform="translate(451, 108) rotate(-7.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LARW</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">←</tspan><tspan x="0" dy="1.2em">Left</tspan>
+</text>
 </g>
 <g transform="translate(505, 87) rotate(-7.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">UARW</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">↑</tspan><tspan x="0" dy="1.2em">Up</tspan>
+</text>
 </g>
 <g transform="translate(562, 94) rotate(-7.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DARW</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">↓</tspan><tspan x="0" dy="1.2em">Down</tspan>
+</text>
 </g>
 <g transform="translate(620, 101) rotate(-7.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RARW</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">→</tspan><tspan x="0" dy="1.2em">Right</tspan>
+</text>
 </g>
 <g transform="translate(31, 157) rotate(7.0)" class="key trans keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -649,23 +661,27 @@ path.combo {
 </g>
 <g transform="translate(458, 163) rotate(-7.0)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">HOME</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⤒</tspan><tspan x="0" dy="1.2em">Home</tspan>
+</text>
 </g>
 <g transform="translate(512, 142) rotate(-7.0)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">UP</tspan>
+<tspan x="0" dy="-0.6em">⇞</tspan><tspan x="0" dy="1.2em">PgUp</tspan>
 </text>
 </g>
 <g transform="translate(569, 149) rotate(-7.0)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PG</tspan><tspan x="0" dy="1.2em">DN</tspan>
+<tspan x="0" dy="-0.6em">⇟</tspan><tspan x="0" dy="1.2em">PgDn</tspan>
 </text>
 </g>
 <g transform="translate(626, 157) rotate(-7.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⤓</tspan><tspan x="0" dy="1.2em">End</tspan>
+</text>
 </g>
 <g transform="translate(130, 211) rotate(7.0)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans"/>
@@ -757,7 +773,9 @@ path.combo {
 </g>
 <g transform="translate(153, 87) rotate(7.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(206, 108) rotate(7.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -777,7 +795,9 @@ path.combo {
 </g>
 <g transform="translate(505, 87) rotate(-7.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(562, 94) rotate(-7.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -951,7 +971,9 @@ path.combo {
 </g>
 <g transform="translate(505, 87) rotate(-7.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(562, 94) rotate(-7.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1106,7 +1128,9 @@ path.combo {
 </g>
 <g transform="translate(505, 87) rotate(-7.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">⌘</tspan><tspan x="0" dy="1.2em">Command</tspan>
+</text>
 </g>
 <g transform="translate(562, 94) rotate(-7.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
