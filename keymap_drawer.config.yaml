@@ -120,8 +120,7 @@ parse_config:
     "&arrow": "->"
     "&double_arrow": "=>"
     "&homedir": "~/"
-    "LCTRL": "^ CTRL"
-    "LALT": "⌥ Alt"
+    "Gui+/": "⌘/"
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
