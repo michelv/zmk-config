@@ -279,6 +279,15 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
+    LARW: '← Left'
+    UARW:  '↑ Up'
+    DARW: '↓ Down'
+    RARW: '→ Right'
+    HOME: '⤒ Home'
+    PG_UP: '⇞ PgUp'
+    PG_DN: '⇟ PgDn'
+    END: '⤓ End'
+    LGUI: '⌘ Command'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
