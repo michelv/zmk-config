@@ -53,10 +53,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - $$mdi:volume-plus$$
-  - $$mdi:apple-keyboard-shift$$''←
-  - $$mdi:apple-keyboard-shift$$''↑
-  - $$mdi:apple-keyboard-shift$$''↓
-  - $$mdi:apple-keyboard-shift$$''→
+  - ⇧'←
+  - ⇧'↑
+  - ⇧'↓
+  - ⇧'→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:volume-minus$$
   - CapsWord $$mdi:alpha-w-box$$
-  - $$mdi:apple-keyboard-shift$$''$$mdi:apple-keyboard-command$$''4
+  - ⇧'⌘'4
   - F11
   - F12
   - {type: held}
@@ -257,7 +257,7 @@ combos:
   k: ->
   l: [Alpha]
 - p: [23, 24]
-  k: $$mdi:apple-keyboard-command$$''/
+  k: ⌘'/
   l: [Alpha]
 - p: [25, 26]
   k: ~/
