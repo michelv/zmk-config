@@ -62,7 +62,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOL DN
+  - $$mdi:volume-minus$$
   - CapsWord $$mdi:alpha-w-box$$
   - ⇧⌘4
   - F11
