@@ -290,13 +290,14 @@ parse_config:
     PG_UP: '⇞ PgUp'
     PG_DN: '⇟ PgDn'
     END: '⤓ End'
-    LGUI: '⌘ Command'
-    RGUI: '⌘ Command'
+    LGUI: '$$mdi:apple-keyboard-command$$'
+    RGUI: '$$mdi:apple-keyboard-command$$'
     LALT: '⌥ Alt'
     LCTRL: '^ Ctrl'
     RCTRL: '^ Ctrl'
     LSHFT: '⇧ Shift'
     RSHFT: '⇧ Shift'
+    C_VOL_UP: '$$mdi:volume-plus$$'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
