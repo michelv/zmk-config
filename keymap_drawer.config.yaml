@@ -299,6 +299,7 @@ parse_config:
     LSHFT: '$$mdi:apple-keyboard-shift$$'
     RSHFT: '$$mdi:apple-keyboard-shift$$'
     C_VOL_UP: '$$mdi:volume-plus$$'
+    C_VOL_DN: '$$mdi:volume-minus$$'
   zmk_combos: {}
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
