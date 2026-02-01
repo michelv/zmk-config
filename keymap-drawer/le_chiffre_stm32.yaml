@@ -13,12 +13,12 @@ layers:
   - L
   - {t: A, h: ^ Ctrl}
   - {t: O, h: ⌥ Alt}
-  - {t: E, h: ⌘ Command}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: U, h: ⇧ Shift}
   - I
   - D
   - {t: H, h: ⇧ Shift}
-  - {t: T, h: ⌘ Command}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - {t: N, h: ⌥ Alt}
   - {t: S, h: ^ Ctrl}
   - {t: ;, h: Mouse}
@@ -49,10 +49,10 @@ layers:
   - F10
   - ^ Ctrl
   - ⌥ Alt
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⇧ Shift
   - {t: ▽, type: trans}
-  - VOL UP
+  - $$mdi:volume-plus$$
   - ⇧←
   - ⇧↑
   - ⇧↓
@@ -85,7 +85,7 @@ layers:
   - '&msc SCRL_RIGHT'
   - ^ Ctrl
   - ⌥ Alt
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⇧ Shift
   - {t: ▽, type: trans}
   - CAPS
@@ -121,12 +121,12 @@ layers:
   - {t: BT, h: '3'}
   - ^ Ctrl
   - ⌥ Alt
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⇧ Shift
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⇧ Shift
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⌥ Alt
   - ^ Ctrl
   - {type: held}
@@ -162,7 +162,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - ⇧ Shift
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⌥ Alt
   - ^ Ctrl
   - ']'
@@ -198,7 +198,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - ⇧ Shift
-  - ⌘ Command
+  - $$mdi:apple-keyboard-command$$
   - ⌥ Alt
   - ^ Ctrl
   - '}'
