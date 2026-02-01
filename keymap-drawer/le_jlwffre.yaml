@@ -267,3 +267,5 @@ combos:
 - p: [16, 17, 18]
   k: ENTER
   a: bottom
+  o: -0.25
+  arc_scale: 0.8
