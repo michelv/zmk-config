@@ -132,8 +132,8 @@ parse_config:
   modifier_fn_map:
     left_ctrl: ^
     right_ctrl: ^
-    left_shift: '⇧'
-    right_shift: '⇧'
+    left_shift: '$$mdi:apple-keyboard-shift$$'
+    right_shift: '$$mdi:apple-keyboard-shift$$'
     left_alt: '⌥'
     right_alt: '⌥'
     left_gui: '⌘'
