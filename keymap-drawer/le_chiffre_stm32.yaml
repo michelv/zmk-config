@@ -53,10 +53,10 @@ layers:
   - ⇧ Shift
   - {t: ▽, type: trans}
   - VOL UP
-  - ⇧ ←
-  - ⇧ ↑
-  - ⇧ ↓
-  - ⇧ →
+  - ⇧←
+  - ⇧↑
+  - ⇧↓
+  - ⇧→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - VOL DN
   - CapsWord $$mdi:alpha-w-box$$
-  - ⇧ ⌘ 4
+  - ⇧⌘4
   - F11
   - F12
   - {type: held}
@@ -257,7 +257,7 @@ combos:
   k: ->
   l: [Alpha]
 - p: [23, 24]
-  k: ⌘ /
+  k: ⌘/
   l: [Alpha]
 - p: [25, 26]
   k: ~/
