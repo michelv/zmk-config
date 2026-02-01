@@ -367,7 +367,7 @@ path.combo {
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="213" y="154" width="28" height="26" class="combo"/>
 <text x="227" y="167" class="combo tap">
-<tspan x="227" dy="-0.6em">⌘&amp;nbsp</tspan><tspan x="227" dy="1.2em">;/</tspan>
+<tspan x="227" dy="-0.6em">⌘</tspan><tspan x="227" dy="1.2em">/</tspan>
 </text>
 </g>
 <g class="combo combopos-14">
@@ -456,25 +456,25 @@ path.combo {
 <g transform="translate(451, 108) rotate(-7.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇧&amp;nbsp</tspan><tspan x="0" dy="1.2em">;←</tspan>
+<tspan x="0" dy="-0.6em">⇧</tspan><tspan x="0" dy="1.2em">←</tspan>
 </text>
 </g>
 <g transform="translate(505, 87) rotate(-7.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇧&amp;nbsp</tspan><tspan x="0" dy="1.2em">;↑</tspan>
+<tspan x="0" dy="-0.6em">⇧</tspan><tspan x="0" dy="1.2em">↑</tspan>
 </text>
 </g>
 <g transform="translate(562, 94) rotate(-7.0)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇧&amp;nbsp</tspan><tspan x="0" dy="1.2em">;↓</tspan>
+<tspan x="0" dy="-0.6em">⇧</tspan><tspan x="0" dy="1.2em">↓</tspan>
 </text>
 </g>
 <g transform="translate(620, 101) rotate(-7.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">⇧&amp;nbsp</tspan><tspan x="0" dy="1.2em">;→</tspan>
+<tspan x="0" dy="-0.6em">⇧</tspan><tspan x="0" dy="1.2em">→</tspan>
 </text>
 </g>
 <g transform="translate(31, 157) rotate(7.0)" class="key trans keypos-20">
@@ -508,7 +508,7 @@ path.combo {
 <g transform="translate(512, 142) rotate(-7.0)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">⇧&amp;nbsp</tspan><tspan x="0" dy="1.2em">;⌘&amp;nbsp</tspan><tspan x="0" dy="1.2em">;4</tspan>
+<tspan x="0" dy="-1.2em">⇧</tspan><tspan x="0" dy="1.2em">⌘</tspan><tspan x="0" dy="1.2em">4</tspan>
 </text>
 </g>
 <g transform="translate(569, 149) rotate(-7.0)" class="key keypos-28">
