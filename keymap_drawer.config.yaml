@@ -138,8 +138,8 @@ parse_config:
     right_alt: '$$mdi:apple-keyboard-option$$'
     left_gui: '$$mdi:apple-keyboard-command$$'
     right_gui: '$$mdi:apple-keyboard-command$$'
-    keycode_combiner: '{mods}  {key}'
-    mod_combiner: '{mod_1}  {mod_2}'
+    keycode_combiner: '{mods}''''{key}'
+    mod_combiner: '{mod_1}''''{mod_2}'
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
