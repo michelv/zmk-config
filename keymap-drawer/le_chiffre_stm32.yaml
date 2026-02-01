@@ -53,10 +53,10 @@ layers:
   - ⇧ Shift
   - {t: ▽, type: trans}
   - VOL UP
-  - ⇧ Left
-  - ⇧ UP
-  - ⇧ DOWN
-  - ⇧ RIGHT
+  - ⇧ ←
+  - ⇧ ↑
+  - ⇧ ↓
+  - ⇧ →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
