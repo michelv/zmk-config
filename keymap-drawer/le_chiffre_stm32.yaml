@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: le_chiffre_stm32, layout_name: transform_with_encoder}
 layers:
   Alpha:
-  - QUOT
+  - ''''
   - ','
   - .
   - P
@@ -11,16 +11,16 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: ^ Ctrl}
-  - {t: O, h: ⌥ Alt}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: U, h: ⇧ Shift}
+  - {t: U, h: '$$mdi:apple-keyboard-shift$$'}
   - I
   - D
-  - {t: H, h: ⇧ Shift}
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: T, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: N, h: ⌥ Alt}
-  - {t: S, h: ^ Ctrl}
+  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: Mouse}
   - Q
   - J
@@ -47,10 +47,10 @@ layers:
   - F8
   - F9
   - F10
-  - ^ Ctrl
-  - ⌥ Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - $$mdi:volume-plus$$
   - ⇧←
@@ -83,16 +83,16 @@ layers:
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_RIGHT'
-  - ^ Ctrl
-  - ⌥ Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - CAPS
-  - ← Left
-  - ↑ Up
-  - ↓ Down
-  - → Right
+  - ←
+  - ↑
+  - ↓
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,16 +119,16 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - ^ Ctrl
-  - ⌥ Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - ⌥ Alt
-  - ^ Ctrl
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -161,10 +161,10 @@ layers:
   - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - ⌥ Alt
-  - ^ Ctrl
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,10 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - ⇧ Shift
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
-  - ⌥ Alt
-  - ^ Ctrl
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
