@@ -53,10 +53,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - $$mdi:volume-plus$$
-  - ⇧  ←
-  - ⇧  ↑
-  - ⇧  ↓
-  - ⇧  →
+  - $$mdi:apple-keyboard-shift$$  ←
+  - $$mdi:apple-keyboard-shift$$  ↑
+  - $$mdi:apple-keyboard-shift$$  ↓
+  - $$mdi:apple-keyboard-shift$$  →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:volume-minus$$
   - CapsWord $$mdi:alpha-w-box$$
-  - ⇧  ⌘  4
+  - $$mdi:apple-keyboard-shift$$  ⌘  4
   - F11
   - F12
   - {type: held}
