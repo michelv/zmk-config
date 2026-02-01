@@ -130,16 +130,16 @@ parse_config:
   layer_legend_map: {}
   mark_alternate_layer_activators: false
   modifier_fn_map:
-    left_ctrl: '$$mdi:apple-keyboard-control$$'
-    right_ctrl: '$$mdi:apple-keyboard-control$$'
-    left_shift: '$$mdi:apple-keyboard-shift$$'
-    right_shift: '$$mdi:apple-keyboard-shift$$'
-    left_alt: '$$mdi:apple-keyboard-option$$'
-    right_alt: '$$mdi:apple-keyboard-option$$'
-    left_gui: '$$mdi:apple-keyboard-command$$'
-    right_gui: '$$mdi:apple-keyboard-command$$'
-    keycode_combiner: '{mods}''''{key}'
-    mod_combiner: '{mod_1}''''{mod_2}'
+    left_ctrl: ^
+    right_ctrl: ^
+    left_shift: '⇧'
+    right_shift: '⇧'
+    left_alt: '⌥'
+    right_alt: '⌥'
+    left_gui: '⌘'
+    right_gui: '⌘'
+    keycode_combiner: '{mods}''{key}'
+    mod_combiner: '{mod_1}''{mod_2}'
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
