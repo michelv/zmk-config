@@ -120,6 +120,7 @@ parse_config:
     "&arrow": "->"
     "&double_arrow": "=>"
     "&homedir": "~/"
+    "VOL UP": "$$vol_up$$"
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -277,7 +278,10 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-    LEFT: "Left"
+    LEFT: "←"
+    UP:  '↑'
+    DOWN: '↓'
+    RIGHT: "→"
     LARW: '← Left'
     UARW:  '↑ Up'
     DARW: '↓ Down'
