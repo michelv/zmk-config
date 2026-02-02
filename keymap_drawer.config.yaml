@@ -120,6 +120,10 @@ parse_config:
     "&arrow": "->"
     "&double_arrow": "=>"
     "&homedir": "~/"
+    "&msc SCRL_LEFT": "Scroll ←"
+    "&msc SCRL_UP":  'Scroll ↑'
+    "&msc SCRL_DOWN": 'Scroll ↓'
+    "&msc SCRL_RIGHT": "Scroll →"
     "VOL UP": "$$vol_up$$"
   sticky_label: sticky
   toggle_label: toggle
