@@ -116,7 +116,7 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    "&caps_word": "CapsWord $$mdi:alpha-w-box$$"
+    "&caps_word": "$$mdi:alpha-w-box$$"
     "&arrow": "->"
     "&double_arrow": "=>"
     "&homedir": "~/"
@@ -295,13 +295,13 @@ parse_config:
     PG_UP: '⇞ PgUp'
     PG_DN: '⇟ PgDn'
     END: '⤓ End'
-    LGUI: '$$mdi:apple-keyboard-command$$'
-    RGUI: '$$mdi:apple-keyboard-command$$'
-    LALT: '$$mdi:apple-keyboard-option$$'
-    LCTRL: '$$mdi:apple-keyboard-control$$'
-    RCTRL: '$$mdi:apple-keyboard-control$$'
-    LSHFT: '$$mdi:apple-keyboard-shift$$'
-    RSHFT: '$$mdi:apple-keyboard-shift$$'
+    LGUI: '⌘'
+    RGUI: '⌘'
+    LALT: '⌥'
+    LCTRL: '^'
+    RCTRL: '^'
+    LSHFT: '⇧'
+    RSHFT: '⇧'
     C_VOL_UP: '$$mdi:volume-plus$$'
     C_VOL_DN: '$$mdi:volume-minus$$'
   zmk_combos: {}
