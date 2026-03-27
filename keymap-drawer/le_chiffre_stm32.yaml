@@ -11,16 +11,16 @@ layers:
   - C
   - R
   - L
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: U, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: ^}
+  - {t: O, h: ⌥}
+  - {t: E, h: ⌘}
+  - {t: U, h: ⇧}
   - I
   - D
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: H, h: ⇧}
+  - {t: T, h: ⌘}
+  - {t: N, h: ⌥}
+  - {t: S, h: ^}
   - {t: ;, h: Mouse}
   - Q
   - J
@@ -47,24 +47,24 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - ^
+  - ⌥
+  - ⌘
+  - ⇧
   - {t: ▽, type: trans}
   - $$mdi:volume-plus$$
-  - $$mdi:apple-keyboard-shift$$  ←
-  - $$mdi:apple-keyboard-shift$$  ↑
-  - $$mdi:apple-keyboard-shift$$  ↓
-  - $$mdi:apple-keyboard-shift$$  →
+  - ⇧  ←
+  - ⇧  ↑
+  - ⇧  ↓
+  - ⇧  →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:volume-minus$$
-  - CapsWord $$mdi:alpha-w-box$$
-  - $$mdi:apple-keyboard-shift$$  ⌘  4
+  - $$mdi:alpha-w-box$$
+  - ⇧  ⌘  4
   - F11
   - F12
   - {type: held}
@@ -79,14 +79,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - Scroll ←
+  - Scroll ↑
+  - Scroll ↓
+  - Scroll →
+  - ^
+  - ⌥
+  - ⌘
+  - ⇧
   - {t: ▽, type: trans}
   - CAPS
   - ←
@@ -119,16 +119,16 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
+  - ^
+  - ⌥
+  - ⌘
+  - ⇧
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - ⇧
+  - ⌘
+  - ⌥
+  - ^
   - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -161,10 +161,10 @@ layers:
   - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - ⇧
+  - ⌘
+  - ⌥
+  - ^
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,10 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - ⇧
+  - ⌘
+  - ⌥
+  - ^
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ combos:
   k: )
   l: [Alpha]
 - p: [13, 16]
-  k: CapsWord $$mdi:alpha-w-box$$
+  k: $$mdi:alpha-w-box$$
   l: [Alpha]
 - p: [1, 2]
   k: =>
