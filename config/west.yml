@@ -12,10 +12,14 @@ manifest:
   - name: zmk
     remote: zmkfirmware
     import: app/west.yml
-  - name: ''
+  - name: le-chiffre-stm32
     url: https://github.com/petejohanson/le-chiffre-stm32-zmk-config/
     revision: main
-    path: modules/
+    path: modules-le-chiffre-stm32/
+  - name: le-broke
+    url: https://github.com/hahahakeebs/zmk-le-broke/
+    revision: main
+    path: modules-le-broke/
   - name: zmk-jlw-keyboards
     remote: jlw
     revision: main
