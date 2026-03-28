@@ -16,7 +16,7 @@ manifest:
     url: https://github.com/petejohanson/le-chiffre-stm32-zmk-config/
     revision: main
     path: modules-le-chiffre-stm32/
-  - name: le-broke
+  - name: lebroke
     url: https://github.com/hahahakeebs/zmk-le-broke/
     revision: main
     path: modules-le-broke/
