@@ -1,0 +1,116 @@
+layout: {zmk_keyboard: lebroke}
+layers:
+  zero base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LSHIFT}
+  - S
+  - {t: D, h: ⌥}
+  - {t: F, h: ^}
+  - G
+  - H
+  - {t: J, h: ^}
+  - {t: K, h: ⌥}
+  - L
+  - {t: ENTER, h: RSHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - .
+  - ','
+  - \
+  - '1'
+  - TAB
+  - {t: SPACE, h: two navigation and kb functions}
+  - {t: BKSP, h: one numbers icons}
+  - DEL
+  - '2'
+  - '&hw_soft_off'
+  one numbers icons:
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - ''
+  - '['
+  - ']'
+  - ''
+  - '`'
+  - ⇧
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - ;
+  - ','
+  - .
+  - /
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - ''
+  - ''''
+  - '-'
+  - '='
+  - \
+  - ''
+  - ''
+  - '0'
+  - {type: held}
+  - ''
+  - ''
+  - '&hw_soft_off'
+  two navigation and kb functions:
+  - ''
+  - '&studio_unlock'
+  - BT CLR ALL
+  - '&hw_soft_off'
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - ''
+  - ''
+  - ''
+  - ⤒ Home
+  - PGUP
+  - ⤓ End
+  - ''
+  - ''
+  - ←
+  - ↑
+  - →
+  - ''
+  - ''
+  - ''
+  - PGDN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ↓
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - '&hw_soft_off'
