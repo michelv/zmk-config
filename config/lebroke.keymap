@@ -25,27 +25,57 @@
                 _____________TOP_ALPHAS_ROW_L______________ _____________TOP_ALPHAS_ROW_R______________
                 _____________MID_ALPHAS_ROW_L______________ _____________MID_ALPHAS_ROW_R______________
                 _____________BOT_ALPHAS_ROW_L______________ _____________BOT_ALPHAS_ROW_R______________
-                                &kp 1     &kp TAB     &lt 2 SPACE     &lt 1 BKSP     &kp DEL     &kp 2                     &hw_soft_off // <-- sleep button
+                ___CHIFFRE_ALPHA3_THUMBS_L____ ___CHIFFRE_ALPHA3_THUMBS_R____              &hw_soft_off
             >;
         };
+
         fun_layer {
             display-name = LABEL_FUN;
             bindings = <
                 _____________TOP_FUNCTION_ROW_L____________ _____________TOP_FUNCTION_ROW_R____________
                 _____________MID_FUNCTION_ROW_L____________ _____________MID_FUNCTION_ROW_R____________
                 _____________BOT_FUNCTION_ROW_L____________ _____________BOT_FUNCTION_ROW_R____________
-                                     &none         &none         &kp N0       &none         &none         &none                         &hw_soft_off // <-- sleep button
+				___CHIFFRE_FUN3_THUMBS_L____ ___CHIFFRE_FUN3_THUMBS_R____                  &hw_soft_off
             >;
         };
-        three { display-name = "two navigation and kb functions";
+
+        nav_layer {
+            display-name = LABEL_NAV;
             bindings = <
-                &none         &studio_unlock     &bt BT_CLR_ALL &hw_soft_off     &none        &none         &bt BT_SEL 0     &bt BT_SEL 1     &none         &none
+                ___________TOP_NAVIGATION_ROW_L____________ ___________TOP_NAVIGATION_ROW_R____________
+                ___________MID_NAVIGATION_ROW_L____________ ___________MID_NAVIGATION_ROW_R____________
+                ___________BOT_NAVIGATION_ROW_L____________ ___________BOT_NAVIGATION_ROW_R____________
+				___CHIFFRE_NAV3_THUMBS_L____ ___CHIFFRE_NAV3_THUMBS_R____                  &hw_soft_off
+            >;
+        };
 
-                &none         &kp HOME     &kp PGUP     &kp END     &none         &none         &kp LEFT     &kp UP         &kp RIGHT     &none
+		pointer_layer {
+            display-name = LABEL_POI;
+            bindings = <
+                _____________TOP_POINTER_ROW_L_____________ _____________TOP_POINTER_ROW_R_____________
+                _____________MID_POINTER_ROW_L_____________ _____________MID_POINTER_ROW_R_____________
+                _____________BOT_POINTER_ROW_L_____________ _____________BOT_POINTER_ROW_R_____________
+				___CHIFFRE_POI3_THUMBS_L____ ___CHIFFRE_POI3_THUMBS_R____                  &hw_soft_off
+            >;
+        };
 
-                &none         &none         &kp PGDN     &none         &none          &none         &none         &kp DOWN     &none         &none
+        num_layer {
+            display-name = LABEL_NUM;
+            bindings = <
+                _____________TOP_NUMERAL_ROW_L_____________ _____________TOP_NUMERAL_ROW_R_____________
+                _____________MID_NUMERAL_ROW_L_____________ _____________MID_NUMERAL_ROW_R_____________
+                _____________BOT_NUMERAL_ROW_L_____________ _____________BOT_NUMERAL_ROW_R_____________
+				___CHIFFRE_NUM3_THUMBS_L____ ___CHIFFRE_NUM3_THUMBS_R____                  &hw_soft_off
+            >;
+        };
 
-                                       &none         &none         &none        &none         &none         &none                         &hw_soft_off // <-- sleep button
+        sym_layer {
+            display-name = LABEL_SYM;
+            bindings = <
+                _____________TOP_SYMBOLS_ROW_L_____________ _____________TOP_SYMBOLS_ROW_R_____________
+                _____________MID_SYMBOLS_ROW_L_____________ _____________MID_SYMBOLS_ROW_R_____________
+                _____________BOT_SYMBOLS_ROW_L_____________ _____________BOT_SYMBOLS_ROW_R_____________
+				___CHIFFRE_SYM3_THUMBS_L____ ___CHIFFRE_SYM3_THUMBS_R____                  &hw_soft_off
             >;
         };
     };

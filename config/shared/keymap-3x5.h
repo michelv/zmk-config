@@ -14,6 +14,7 @@
 #define SPC_NUM  &lt NUM_L SPACE
 #define TAB_FUN  &lt FUN_L TAB
 #define GRAV_SYM  &lt SYM_L GRAVE
+#define ENTER_SYM  &lt SYM_L ENTER
 #define BKSP_NAV &lt NAV_L BKSP
 #define SEMI_POI &lt POI_L SEMI
 #define Z_POI    &lt POI_L Z
@@ -35,6 +36,8 @@
 
 #define ___CHIFFRE_ALPHAS_THUMBS_L____ TAB_FUN BKSP_NAV
 #define ___CHIFFRE_ALPHAS_THUMBS_R____ SPC_NUM GRAV_SYM
+#define ___CHIFFRE_ALPHA3_THUMBS_L____ TAB_FUN BKSP_NAV &kp GRAVE
+#define ___CHIFFRE_ALPHA3_THUMBS_R____ SPC_NUM ENTER_SYM &kp ESC
 #define ___ENC_ALPHAS_PRESS___     &kp ESC
 #define ___ENC_ALPHAS_INC_DEC___   PG_UP PG_DN
 
@@ -48,6 +51,8 @@
 
 #define ___CHIFFRE_FUN_THUMBS_L____ &trans &trans
 #define ___CHIFFRE_FUN_THUMBS_R____ &trans &trans
+#define ___CHIFFRE_FUN3_THUMBS_L____ &trans &trans &trans
+#define ___CHIFFRE_FUN3_THUMBS_R____ &trans &trans &trans
 #define ___ENC_FUN_PRESS___     &kp ESC
 #define ___ENC_FUN_INC_DEC___   PG_UP PG_DN
 
@@ -61,6 +66,8 @@
 
 #define ___CHIFFRE_NAV_THUMBS_L____ &trans    &trans
 #define ___CHIFFRE_NAV_THUMBS_R____ &kp ENTER &kp SPACE
+#define ___CHIFFRE_NAV3_THUMBS_L____ &trans    &trans &trans
+#define ___CHIFFRE_NAV3_THUMBS_R____ &kp ENTER &kp SPACE &kp ESC
 #define ___ENC_NAV_PRESS___     &kp ESC
 #define ___ENC_NAV_INC_DEC___   PG_UP PG_DN
 
@@ -74,6 +81,8 @@
 
 #define ___CHIFFRE_POI_THUMBS_L____ &mkp MB2 &mkp MB1
 #define ___CHIFFRE_POI_THUMBS_R____ &mkp MB1 &mkp MB2
+#define ___CHIFFRE_POI3_THUMBS_L____ &mkp MB3 &mkp MB2 &mkp MB1
+#define ___CHIFFRE_POI3_THUMBS_R____ &mkp MB1 &mkp MB2 &mkp MB3
 #define ___ENC_POI_PRESS___     &kp ESC
 #define ___ENC_POI_INC_DEC___   PG_UP PG_DN
 
@@ -87,6 +96,8 @@
 
 #define ___CHIFFRE_NUM_THUMBS_L____ &kp MINUS &kp EQUAL
 #define ___CHIFFRE_NUM_THUMBS_R____ &trans    &kp DOT
+#define ___CHIFFRE_NUM3_THUMBS_L____ &kp MINUS &kp EQUAL &kp GRAVE
+#define ___CHIFFRE_NUM3_THUMBS_R____ &trans    &kp DOT &kp ESC
 #define ___ENC_NUM_PRESS___     &kp ESC
 #define ___ENC_NUM_INC_DEC___   PG_UP PG_DN
 
@@ -100,5 +111,7 @@
 
 #define ___CHIFFRE_SYM_THUMBS_L____ &kp UNDER &kp PLUS
 #define ___CHIFFRE_SYM_THUMBS_R____ &kp TILDE &trans
+#define ___CHIFFRE_SYM3_THUMBS_L____ &kp UNDER &kp PLUS &kp GRAVE
+#define ___CHIFFRE_SYM3_THUMBS_R____ &kp TILDE &trans &kp ESC
 #define ___ENC_SYM_PRESS___     &kp ESC
 #define ___ENC_SYM_INC_DEC___   PG_UP PG_DN
