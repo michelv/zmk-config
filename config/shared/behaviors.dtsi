@@ -8,13 +8,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-
-        hw_soft_off: hw_soft_off {
-            compatible = "zmk,behavior-soft-off";
-            #binding-cells = <0>;
-            split-peripheral-off-on-press; // Turn peripheral off immediately for reliability (not applicable)
-            hold-time-ms = <1500>; // Only turn off if the key is held for 1.5 seconds or longer.
-        };
     };
 
     macros {
