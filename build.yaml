@@ -21,4 +21,5 @@
 include:
   - board: le_chiffre_stm32
   - board: le_jlwffre
-  - board: lebroke
+  - board: nice_nano_v2
+    shield: lebroke
